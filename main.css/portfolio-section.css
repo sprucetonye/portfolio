@@ -1,0 +1,56 @@
+#portfolio-section{
+    padding: 80px 15px;
+}
+
+#portfolio-section .title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#portfolio-section .title .squre{
+    background:  #D7B401;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 15px;
+}
+
+#portfolio-section .title h1{
+    position: relative;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: #16171b;
+    margin-bottom: 2rem;
+    z-index: 1;
+    letter-spacing: 4px;
+}
+
+#portfolio-section .portfolio-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px;
+}
+
+#portfolio .portfolio-container .box {
+    background: red;
+    display: block;
+    padding: 40px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    height: 200px;
+    width: 100px;
+    
+}
+
+#portfolio-section .portfolio-container .box:hover {
+    background:  rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95); 
+    box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95);
+    cursor: pointer;
+}

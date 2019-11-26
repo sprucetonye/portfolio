@@ -1,0 +1,192 @@
+#services{
+    padding: 80px 15px;
+}
+
+#services .title{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#services .title .circle{
+    background:  #dbf1ff;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+}
+
+#services .title h1{
+    position: relative;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: #16171b;
+    margin-bottom: 2rem;
+    z-index: 1;
+    letter-spacing: 4px;
+}
+
+#services .services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 40px;
+}
+
+#services .services-container .box {
+    background: rgba(255, 255, 255, 0);
+    padding: 45px;
+    transition: all .4s ease-in-out;
+    
+}
+
+/*i had to duplicate the hover effect multiple times which was kinda of streeful*/
+#services .services-container .box-blue:hover {
+    background:  rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95); 
+    box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95);
+    cursor: pointer;
+}
+
+#services .services-container .box-red:hover {
+    background:  rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95); 
+    box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95);
+    cursor: pointer;
+}
+
+#services .services-container .box-green:hover {
+    background:  rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95); 
+    box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95);
+    cursor: pointer;
+}
+
+#services .services-container .box-yellow:hover {
+    background:  rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95); 
+    box-shadow: 1px -7px 44px 44px rgba(219,241,255,0.95);
+    cursor: pointer;
+}
+
+/*icons buttons setting*/
+
+#services .services-container .box-blue .fas {
+    font-size: rem;
+    margin-right: .24rem;
+    color: #D7B401;
+    
+ }
+
+ #services .services-container .box-red .fas {
+    font-size: rem;
+    margin-right: .24rem;
+    color: #D7B401;
+    
+    
+ }
+
+ #services .services-container .box-green .fas {
+    font-size: rem;
+    margin-right: .24rem;
+    color: #D7B401;
+    
+ }
+
+ #services .services-container .box-yellow .fas {
+    font-size: rem;
+    margin-right: .24rem;
+    color: #D7B401;
+    
+ }
+
+ 
+/*i have to make it this way, to allow it work, i will
+now duplicate it */
+#services .services-container .box-blue h5 {
+   font-size: 1rem;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 2.1px;
+   margin-bottom: 2rem;
+}
+
+#services .services-container .box-red h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    margin-bottom: 2rem;
+ }
+
+ #services .services-container .box-green h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    margin-bottom: 2rem;
+ }
+
+ #services .services-container .box-yellow h5 {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    margin-bottom: 2rem;
+ }
+
+
+ /*----i dont know i can't just target the element and style it? */
+
+ #services .services-container .box-blue p {
+    line-height: 1.5;
+    color: #b3b3b3;
+    font-size: .81;
+   
+}
+#services .services-container .box-red p {
+    line-height: 1.5;
+    color: #b3b3b3;
+    font-size: .81;
+   
+}
+
+#services .services-container .box-green p {
+    line-height: 1.5;
+    color: #b3b3b3;
+    font-size: .81;
+   
+}
+
+#services .services-container .box-yellow p {
+    line-height: 1.5;
+    color: #b3b3b3;
+    font-size: .81;
+   
+}
+/*it stops above */
+
+
+
+
+#services .services-container .box-blue {
+   border-bottom: 2px solid #52b8ff;
+}
+
+#services .services-container .box-red {
+    border-bottom: 2px solid #b93f19
+ }
+
+ #services .services-container .box-green {
+    border-bottom: 2px solid #33d3b3;
+ }
+
+ #services .services-container .box-yellow {
+    border-bottom: 2px solid hsl(61, 93%, 62%);
+ }
+ 
